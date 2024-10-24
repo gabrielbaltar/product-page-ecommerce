@@ -1,0 +1,26 @@
+.promotion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    max-height: 32px;
+    margin: 0 auto;
+}
+
+.promotion p {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.promotion span {
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.promotionContainer {
+    background-color: #85B074;
+}
