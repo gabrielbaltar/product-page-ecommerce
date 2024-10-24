@@ -1,8 +1,9 @@
 .promotion {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1120px;
-    max-height: 32px;
+    height: 2rem;
     margin: 0 auto;
 }
 
@@ -24,3 +25,59 @@
 .promotionContainer {
     background-color: #85B074;
 }
+
+.flexdirection {
+    display: flex;
+    max-width: 100%;
+    /* justify-content: space-between; */
+}
+
+.menuContent {
+    height: 5.25rem;
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+
+.location {
+    display: flex;
+    font-size: 0.875rem;
+    align-items: center;
+    gap: 0.875rem;
+}
+
+.location p {
+    font-weight: 400;
+    max-width: 100px;
+}
+
+.location span {
+    font-weight: 700;
+}
+
+.searchBar {
+    display: flex;
+    max-width: 435px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.searchBar input {
+    background-color: #ffffff;
+    border: 1px solid #CEC9B2;
+    border-radius: 4px;
+    outline: none;
+    color: #222222;
+    width: 100%;
+    padding-left: 1rem;
+    
+}
+
+.searchBar button {
+    position: absolute;
+    right: 12px;
+    background-color: transparent;
+    border: none;
+    place-self: center;
+} 
